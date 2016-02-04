@@ -7,7 +7,7 @@ import java.sql.*;
 public class DBStaticRequests {
     private static final String URL = "jdbc:mysql://localhost:3306/mydbtest";
     private static final String USER_NAME = "root";
-    private static final String PASSWORD = "vfxj06";
+    private static final String PASSWORD = "";
 
     public static void main(String[] args) {
         try {
