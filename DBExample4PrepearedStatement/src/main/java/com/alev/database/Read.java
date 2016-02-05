@@ -48,19 +48,15 @@ public class Read {
             e.printStackTrace();
         } finally {
             try {
-                if (preparedStatement != null) {
+                if (preparedStatement != null ) {
                     preparedStatement.close();
+                    System.out.println("preparedStatement is closed()");
                 }
-            } catch (SQLException e) {
-                System.out.println("preparedStatement is closed()");
-                e.printStackTrace();
-            }
-            try {
                 if (connection != null) {
                     connection.close();
+                    System.out.println("connection is closed");
                 }
             } catch (SQLException e) {
-                System.out.println("connection is closed");
                 e.printStackTrace();
             }
         }

@@ -12,6 +12,7 @@ public class Insert {
     private static final String USER_NAME = "root";
     private static final String PASSWORD = "root";
 
+    //значения подставляются
     private static final String INSERT_NEW = "INSERT INTO dish VALUES(?,?,?,?,?,?,?)";
 
     public static void main(String[] args) {
@@ -42,19 +43,15 @@ public class Insert {
             e.printStackTrace();
         }  finally {
             try {
-                if (preparedStatement != null) {
+                if (preparedStatement != null ) {
                     preparedStatement.close();
+                    System.out.println("preparedStatement is closed()");
                 }
-            } catch (SQLException e) {
-                System.out.println("preparedStatement is closed()");
-                e.printStackTrace();
-            }
-            try {
                 if (connection != null) {
                     connection.close();
+                    System.out.println("connection is closed");
                 }
             } catch (SQLException e) {
-                System.out.println("connection is closed");
                 e.printStackTrace();
             }
         }
