@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="false" />
+    <value-preview-text-wrapping value="true" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -21,17 +21,31 @@
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
     <autoscroll-to-editor value="false" />
-    <autoscroll-from-editor value="false" />
-    <show-object-properties value="false" />
-    <loaded-nodes />
+    <autoscroll-from-editor value="true" />
+    <show-object-properties value="true" />
+    <loaded-nodes>
+      <connection connection-id="a7969621-f28c-4bb7-9b00-0ee855a6e70a">
+        <schema name="information_schema" object-types="function, procedure, table, view" />
+        <schema name="library" object-types="function, procedure, table, view" />
+        <schema name="mydbtest" object-types="column, constraint, function, index, procedure, table, dataset trigger, view" />
+        <schema name="mysql" object-types="function, procedure, table, view" />
+        <schema name="performance_schema" object-types="function, procedure, table, view" />
+        <schema name="sbase" object-types="function, procedure, table, view" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="8df8e2cf-69ee-4819-bd8a-a765ace9bd57">
+    <connection id="a7969621-f28c-4bb7-9b00-0ee855a6e70a">
       <console name="Connection" type="STANDARD" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-list connection-id="8df8e2cf-69ee-4819-bd8a-a765ace9bd57" dataset="mydbtest.dish" active-filter-id="EMPTY_FILTER" />
+    <filter-list connection-id="a7969621-f28c-4bb7-9b00-0ee855a6e70a" dataset="mydbtest.users" active-filter-id="EMPTY_FILTER" />
+    <filter-list connection-id="a7969621-f28c-4bb7-9b00-0ee855a6e70a" dataset="mydbtest.user" active-filter-id="EMPTY_FILTER">
+      <filter id="795fd14e-db12-4eab-945a-a2c9f5a12f8c" name="2" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="USER_ID" operator="=" value="2" active="true" />
+      </filter>
+    </filter-list>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -56,10 +70,10 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="8df8e2cf-69ee-4819-bd8a-a765ace9bd57" active="true">
+      <connection id="a7969621-f28c-4bb7-9b00-0ee855a6e70a" active="true">
         <database>
           <name value="Connection" />
-          <description value="myconnection" />
+          <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
           <database-version value="5.6" />
@@ -73,7 +87,7 @@
           <os-authentication value="false" />
           <empty-password value="false" />
           <user value="root" />
-          <password value="dmZ4ajA2" />
+          <password value="cm9vdA==" />
         </database>
         <properties>
           <auto-commit value="false" />

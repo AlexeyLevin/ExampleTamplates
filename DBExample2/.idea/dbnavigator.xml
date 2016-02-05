@@ -23,7 +23,16 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="4be917fa-a9be-4641-8dd0-6d9220743a0d">
+        <schema name="information_schema" object-types="function, procedure, table, view" />
+        <schema name="library" object-types="function, procedure, table, view" />
+        <schema name="mydbtest" object-types="function, procedure, table, view" />
+        <schema name="mysql" object-types="function, procedure, table, view" />
+        <schema name="performance_schema" object-types="function, procedure, table, view" />
+        <schema name="sbase" object-types="function, procedure, table, view" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="4be917fa-a9be-4641-8dd0-6d9220743a0d">
@@ -73,7 +82,7 @@
           <os-authentication value="false" />
           <empty-password value="false" />
           <user value="root" />
-          <password value="dmZ4ajA2" />
+          <password value="cm9vdA==" />
         </database>
         <properties>
           <auto-commit value="false" />

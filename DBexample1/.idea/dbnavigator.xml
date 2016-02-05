@@ -25,8 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="74f42bb3-29f6-4c69-84bb-2ae3af04907a">
-        <schema name="information_schema" object-types="table, view" />
-        <schema name="mydbtest" object-types="function, procedure, table, view" />
+        <schema name="mydbtest" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -78,7 +77,7 @@
           <os-authentication value="false" />
           <empty-password value="false" />
           <user value="root" />
-          <password value="dmZ4ajA2" />
+          <password value="cm9vdA==" />
         </database>
         <properties>
           <auto-commit value="false" />
