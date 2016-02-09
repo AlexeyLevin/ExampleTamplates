@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="WEB-INF">
+    <output-path>$PROJECT_DIR$/out/artifacts/WEB_INF</output-path>
+    <root id="root">
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/wabapp/WEB-INF/web.xml" />
+    </root>
+  </artifact>
+</component>
