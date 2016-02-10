@@ -6,7 +6,7 @@ Exam 5 HibernateMapping: http://devcolibri.com/1394
 
 Exam 6 JPA with Hibernate: http://devcolibri.com/1658
 
-Exam 7 Jar building: 
+Exam 7 Jar building: https://www.youtube.com/watch?v=X5eI5OhRWis
 
 Exam 8 Spring, Spring MVC, 
 Hibernate https://habrahabr.ru/post/111102/ 
