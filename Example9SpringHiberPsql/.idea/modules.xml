@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mycrud/Example9SpringHiberPsql.iml" filepath="$PROJECT_DIR$/mycrud/Example9SpringHiberPsql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exmaple9SpringHiberPsql.iml" filepath="$PROJECT_DIR$/Exmaple9SpringHiberPsql.iml" />
+    </modules>
+  </component>
+</project>
