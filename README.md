@@ -11,3 +11,7 @@ Exam 7 Jar building:
 Exam 8 Spring, Spring MVC, 
 Hibernate https://habrahabr.ru/post/111102/ 
 http://viralpatel.net/blogs/spring3-mvc-hibernate-maven-tutorial-eclipse-example/
+
+Exam 9 Spring, Hibernate, PosgreSql. 
+https://github.com/nordmine/developer-remarks/tree/master/hibernate-entities
+http://developer-remarks.blogspot.ru/2014/06/hibernate-spring-postgresql-maven.html
