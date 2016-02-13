@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Exmaple9SpringHiberPsql.iml" filepath="$PROJECT_DIR$/Exmaple9SpringHiberPsql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Example10SimpleWebApp.iml" filepath="$PROJECT_DIR$/Example10SimpleWebApp.iml" />
     </modules>
   </component>
 </project>
