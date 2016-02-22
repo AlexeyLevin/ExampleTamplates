@@ -1,4 +1,4 @@
-# ExampleTamplates
+# ExampleTemplates
 
 Exam 1-4 JDBC: https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2
 
